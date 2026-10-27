@@ -1,0 +1,7 @@
+{
+  "_aide": "Plateformes qui hébergent plusieurs newsletters sous un même domaine : pour elles, le candidat est identifié par l'adresse complète (par exemple monblog.substack.com) et non par le domaine de la plateforme.",
+  "plateformes_hebergees": [
+    "substack.com", "beehiiv.com", "ghost.io", "mailchi.mp", "kit.com", "buttondown.com",
+    "campaign-archive.com", "hubspotemail.net", "flint.media"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_aide": "Règles de détection modifiables sans toucher au code. Les motifs sont des expressions régulières (insensibles à la casse). Un libellé n'est reconnu que s'il constitue à lui seul un court texte (≤ libelle_longueur_max caractères), pour ne pas confondre une publicité avec un article qui parle de publicité.",
+
+  "poids": { "fort": 60, "moyen": 25, "faible": 10 },
+  "seuils": { "confirmee": 60, "potentielle": 20 },
+  "confirmee_exige_signal_fort": true,
+  "seuil_recurrence_editions": 3,
+
+  "libelle_longueur_max": 80,
+  "bloc_texte_max": 1500,
+  "bloc_domaines_externes_max": 3,
+
+  "libelles_forts_seuls": [
+    "sponsoris[ée]e?s?", "sponsored", "publicit[ée]", "pub", "advertorial",
+    "advertisement", "publireportage", "contenu\\s+sponsoris[ée]", "contenu\\s+partenaire"
+  ],
+  "libelles_forts_avec_nom": [
+    "sponsoris[ée]e?\\s+par", "sponsored\\s+by", "publicit[ée]\\s+de"
+  ],
+  "libelles_moyens_seuls": [
+    "partenaire", "partenaires", "nos\\s+partenaires", "partner"
+  ],
+  "libelles_moyens_avec_nom": [
+    "en\\s+partenariat\\s+avec", "pr[ée]sent[ée]e?\\s+par", "propos[ée]e?\\s+par",
+    "offert\\s+par", "avec\\s+le\\s+soutien\\s+de", "in\\s+partnership\\s+with",
+    "presented\\s+by", "brought\\s+to\\s+you\\s+by"
+  ],
+
+  "appels_a_action": [
+    "d[ée]couvr", "essai\\s+gratuit", "r[ée]serv", "inscri(?:vez|s|ption)", "profit",
+    "promo", "-\\s?\\d+\\s?%", "demander\\s+(?:une\\s+)?d[ée]mo", "t[ée]l[ée]charg",
+    "commander", "acheter", "gratuit", "free\\s+trial", "book\\s+a\\s+demo", "get\\s+started"
+  ],
+
+  "domaines_ignores": [
+    "facebook.com", "twitter.com", "x.com", "linkedin.com", "instagram.com",
+    "youtube.com", "youtu.be", "t.co", "tiktok.com", "pinterest.com", "whatsapp.com",
+    "list-manage.com", "mailchimp.com", "mcusercontent.com", "sendgrid.net",
+    "mailjet.com", "sendinblue.com", "brevo.com", "sibautomation.com",
+    "beehiiv.com", "substack.com", "convertkit.com", "kit.com", "hubspot.com",
+    "hs-sites.com", "mailerlite.com", "campaign-archive.com", "google.com",
+    "apple.com", "w3.org"
+  ]
+}

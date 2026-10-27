@@ -1,0 +1,127 @@
+{
+  "_aide": "Candidats concurrents trouvés par recherche web (pages publiques) et vérifiés en lisant la page de chaque site le 2026-10-27. Les extraits viennent de la lecture de la page par un outil automatique : à vérifier si vous en avez besoin comme preuve. Aucun n'est un concurrent tant que vous ne l'avez pas accepté.",
+  "fournisseur": "Recherche manuelle par Claude (pages publiques)",
+  "date": "2026-10-27",
+  "candidats": [
+    {
+      "domaine": "briefia.fr", "nom": "Brief IA", "url_newsletter": "https://www.briefia.fr/newsletter",
+      "description": "Média quotidien sur l'intelligence artificielle (édition du soir, option hebdomadaire).",
+      "theme": "Actualité IA en français (proche de mammam-ia.com)",
+      "signaux": [
+        ["theme_identique", "Le média de l'intelligence artificielle", "https://www.briefia.fr/newsletter"],
+        ["frequence_quotidienne", "Chaque soir à 19h", "https://www.briefia.fr/newsletter"],
+        ["vend_de_la_publicite", "Sponsorisez le brief quotidien", "https://www.briefia.fr/newsletter"],
+        ["vend_de_la_publicite", "Réserver un encart", "https://www.briefia.fr/newsletter"]
+      ]
+    },
+    {
+      "domaine": "upmynt.com", "nom": "Upmynt", "url_newsletter": "https://www.upmynt.com/",
+      "description": "Newsletter qui simplifie l'IA pour les professionnels (outils et conseils pratiques), environ deux numéros par semaine.",
+      "theme": "Actualité IA en français (proche de mammam-ia.com)",
+      "signaux": [
+        ["theme_identique", "La newsletter qui simplifie l'IA", "https://www.upmynt.com/"],
+        ["audience_annoncee", "Rejoignez 9000+ abonnés", "https://www.upmynt.com/"],
+        ["vend_de_la_publicite", "Annonceurs (lien de la page vers une offre de publicité)", "https://www.upmynt.com/"]
+      ]
+    },
+    {
+      "domaine": "hypernewsletter.fr", "nom": "Hypernews IA", "url_newsletter": "https://hypernewsletter.fr/hypernews-ia",
+      "description": "Newsletter hebdomadaire d'actualité IA (annonces, recherche), publiée le jeudi.",
+      "theme": "Actualité IA en français (proche de mammam-ia.com)",
+      "signaux": [
+        ["theme_identique", "Actualité IA : annonces, recherche (page Hypernews IA)", "https://hypernewsletter.fr/hypernews-ia"],
+        ["audience_annoncee", "Plus de 5 000 lecteurs", "https://hypernewsletter.fr/hypernews-ia"],
+        ["publicite_non_constatee", "Aucune mention de sponsor, partenaire ou kit média sur la page", "https://hypernewsletter.fr/hypernews-ia"]
+      ]
+    },
+    {
+      "domaine": "generationia.flint.media", "nom": "La Lettre de Flint (Génération IA)", "url_newsletter": "https://generationia.flint.media/",
+      "description": "Newsletter sur l'IA, publiée un dimanche sur deux (beehiiv). Promeut ses propres formations.",
+      "theme": "Actualité IA en français (proche de mammam-ia.com)",
+      "signaux": [
+        ["theme_identique", "Comprendre l'IA et apprendre à s'en servir", "https://generationia.flint.media/"],
+        ["frequence_bimensuelle", "Un dimanche sur deux", "https://generationia.flint.media/"],
+        ["publicite_non_constatee", "Aucune mention de sponsor ; promeut ses propres formations", "https://generationia.flint.media/"]
+      ]
+    },
+    {
+      "domaine": "maijin.beehiiv.com", "nom": "L'hebdo de MAIjin", "url_newsletter": "https://maijin.beehiiv.com/",
+      "description": "Hebdomadaire d'analyses du marché de l'IA en Suisse romande et en France (beehiiv).",
+      "theme": "Actualité IA en français (proche de mammam-ia.com)",
+      "signaux": [
+        ["theme_identique", "des réflexions poussées sur les opportunités de l'IA en suisse romande et en France", "https://maijin.beehiiv.com/"],
+        ["publicite_non_constatee", "Aucune mention de sponsor, partenaire ou kit média sur la page", "https://maijin.beehiiv.com/"]
+      ]
+    },
+    {
+      "domaine": "silicon.fr", "nom": "Silicon.fr", "url_newsletter": "https://www.silicon.fr/inscription-newsletter",
+      "description": "Actualités IT, cybersécurité, cloud et IA pour décideurs IT ; newsletter trois fois par semaine.",
+      "theme": "Tech, IA, cloud et cybersécurité (proche de newsletter.lebigdata.fr)",
+      "signaux": [
+        ["theme_identique", "Recevez les dernières actualités IT, cybersécurité, cloud et IA", "https://www.silicon.fr/inscription-newsletter"],
+        ["frequence", "les lundis, mardis et vendredis à 7h45", "https://www.silicon.fr/inscription-newsletter"],
+        ["vend_de_la_publicite", "Espaces partenaires (hubs sponsorisés, par exemple Step In by Lenovo)", "https://www.silicon.fr/inscription-newsletter"],
+        ["vend_de_la_publicite", "en partenariat avec des annonceurs", "https://www.silicon.fr/inscription-newsletter"]
+      ]
+    },
+    {
+      "domaine": "it-connect.fr", "nom": "IT-Connect", "url_newsletter": "https://www.it-connect.fr/",
+      "description": "Actualités IT et tech, tutoriels d'administration système, réseau et cybersécurité ; un e-mail par semaine.",
+      "theme": "Tech, cloud et cybersécurité (proche de newsletter.lebigdata.fr et cyberdefense.net)",
+      "signaux": [
+        ["theme_proche", "Actualités IT & Tech, tutoriels en administration système, réseau et cybersécurité", "https://www.it-connect.fr/"],
+        ["frequence", "Newsletter : 1 e-mail par semaine !", "https://www.it-connect.fr/"],
+        ["vend_de_la_publicite", "Espace annonceurs (lien de la page)", "https://www.it-connect.fr/"]
+      ]
+    },
+    {
+      "domaine": "blogdumoderateur.com", "nom": "Blog du Modérateur", "url_newsletter": "https://www.blogdumoderateur.com/newsletter/",
+      "description": "Média du digital et des médias sociaux ; une Matinale quotidienne et une newsletter hebdomadaire.",
+      "theme": "Tech et digital (proximité plus faible : orienté marketing digital)",
+      "signaux": [
+        ["theme_proche", "les dernières nouveautés du digital, des médias sociaux", "https://www.blogdumoderateur.com/newsletter/"],
+        ["frequence", "la Matinale, envoyée chaque jour, et la Newsletter, envoyée chaque vendredi", "https://www.blogdumoderateur.com/newsletter/"],
+        ["vend_de_la_publicite", "Devenez partenaire du BDM, le média des professionnels du digital", "https://www.blogdumoderateur.com/newsletter/"]
+      ]
+    },
+    {
+      "domaine": "zataz.com", "nom": "ZATAZ", "url_newsletter": "https://www.zataz.com/news-letter-zataz/",
+      "description": "Newsletter hebdomadaire de cybersécurité (fuites de données, arnaques, cybercriminalité).",
+      "theme": "Cybersécurité en français (proche de cyberdefense.net)",
+      "signaux": [
+        ["theme_identique", "le meilleur (et le pire) de la cybersécurité de la semaine", "https://www.zataz.com/news-letter-zataz/"],
+        ["frequence", "chaque vendredi midi", "https://www.zataz.com/news-letter-zataz/"],
+        ["publicite_sur_le_site", "Publicité (section de la page, par exemple Proton VPN) ; la newsletter se dit « Sans pub »", "https://www.zataz.com/news-letter-zataz/"]
+      ]
+    },
+    {
+      "domaine": "incyber.org", "nom": "InCyber", "url_newsletter": "https://incyber.org/",
+      "description": "Média de la communauté cyber (équipes du FIC) avec newsletter gratuite.",
+      "theme": "Cybersécurité en français (proche de cyberdefense.net)",
+      "signaux": [
+        ["newsletter_confirmee", "S'inscrire à la newsletter", "https://incyber.org/"],
+        ["publicite_non_constatee", "Aucune mention de sponsor ou kit média sur la page d'accueil", "https://incyber.org/"]
+      ]
+    },
+    {
+      "domaine": "tourmag.com", "nom": "TourMaG", "url_newsletter": "https://www.tourmag.com/tags/meeting",
+      "description": "Média du tourisme professionnel francophone, avec rubrique MICE et newsletter quotidienne gratuite.",
+      "theme": "Événementiel et MICE (voisin d'evenement.fr : média tourisme avec rubrique MICE, pas spécialiste de l'événementiel)",
+      "signaux": [
+        ["theme_proche", "le média spécialiste du tourisme francophone (rubrique meeting / MICE)", "https://www.tourmag.com/tags/meeting"],
+        ["frequence_quotidienne", "Recevez chaque matin l'info qui fera votre succès dans le tourisme", "https://www.tourmag.com/tags/meeting"],
+        ["vend_de_la_publicite", "Publi-news (articles de marque) et lien Publicité dans le pied de page", "https://www.tourmag.com/tags/meeting"]
+      ]
+    },
+    {
+      "domaine": "bookingshake.substack.com", "nom": "La Shake News (Booking Shake)", "url_newsletter": "https://bookingshake.substack.com/",
+      "description": "Newsletter mensuelle d'un éditeur de logiciel pour l'événementiel (contenu commercial événementiel, podcast).",
+      "theme": "Événementiel (voisin d'evenement.fr : newsletter d'éditeur, pas un média indépendant)",
+      "signaux": [
+        ["theme_proche", "La Shake News : podcast Event Shake, articles et conseils", "https://bookingshake.substack.com/"],
+        ["frequence", "tous les mois", "https://bookingshake.substack.com/"],
+        ["publicite_non_constatee", "Aucune mention de sponsor ou de partenaire sur la page", "https://bookingshake.substack.com/"]
+      ]
+    }
+  ]
+}
